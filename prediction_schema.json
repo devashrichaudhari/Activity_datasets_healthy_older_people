@@ -1,0 +1,9 @@
+{
+    "RequiredColumns": [
+      "Time",
+      "Acceleration reading(frontal axis)",
+      "Acceleration reading(vertical axis)",
+      "Acceleration reading(lateral axis)",
+      "Phase"
+    ]
+}

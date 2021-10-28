@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container homepage">
+    <div class="form-block mt-5">
+        <form class="row" action="/input" method="POST">
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Time(Seconds)</label>
+                    <input name="Time" type="tel" class="form-control" required>
+                </div>
+              </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Acceleration reading(frontal axis)</label>
+                    <input name="Acceleration reading(frontal axis)" type="tel" class="form-control" required>
+                </div>
+              </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Acceleration reading(vertical axis)</label>
+                    <input name="Acceleration reading(vertical axis)" type="tel" class="form-control" required>
+                </div>
+              </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Acceleration reading(lateral axis)</label>
+                    <input name="Acceleration reading(lateral axis)" type="tel" class="form-control" required>
+                </div>
+              </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Phase</label>
+                    <input name="Phase" type="tel" class="form-control" required>
+                </div>
+              </div>
+
+
+            <input class="btn btn-primary" type="submit" value="Submit" style="height: 50px;margin-top: 22px;">
+        </form>
+    </div>
+
+</div>
+{% endblock content %}
